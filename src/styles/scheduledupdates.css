@@ -1,0 +1,18 @@
+.scheduled-updates-container {
+  padding: 20px;
+  background-color: rgb(33 37 41);
+}
+
+.updates-card ul {
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.updates-card ul::-webkit-scrollbar {
+  width: 6px;
+}
+
+.updates-card ul::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 3px;
+}

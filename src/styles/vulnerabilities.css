@@ -1,0 +1,13 @@
+.vulnerability-section {
+  min-height: 100vh;
+}
+
+.card {
+  background-color: #1e1e1e !important;
+  border-radius: 8px;
+}
+
+
+.vulnerability-section{
+  padding-top: 8% !important;
+}

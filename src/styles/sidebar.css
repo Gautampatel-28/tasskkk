@@ -1,0 +1,115 @@
+/* scrollbar done */
+.sidebar-drawer {
+  background-color: #111 !important;
+  color: white;
+  overflow-y: auto; 
+  overflow-x: hidden;
+  height: 100vh;
+  transition: width 0.3s ease;
+  scrollbar-width: thin;
+  scrollbar-color: #4fff4b #222;
+}
+
+
+.sidebar-topbar {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.sidebar-logo {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.sidebar-grid {
+  padding: 8px;
+  display: grid;
+  gap: 8px;
+}
+
+.sidebar-grid-open {
+  grid-template-columns: 1fr 1fr;
+}
+
+.sidebar-grid-closed {
+  grid-template-columns: 1fr;
+}
+
+.sidebar-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #1a1a1a;
+  color: #ccc;
+  transition: background-color 0.2s ease;
+}
+
+.sidebar-tile:hover {
+  background-color: #222;
+}
+
+.sidebar-tile.active {
+  background-color: #4fff4b;
+  color: #000;
+}
+
+.sidebar-icon-only {
+  height: 60px !important;
+}
+
+
+.sidebar-nav-section {
+  padding: 8px 0;
+}
+
+.sidebar-nav-item {
+  padding-left: 16px;
+  padding-right: 16px;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.sidebar-nav-item:hover {
+  background-color: #222;
+  border-radius: 6px;
+}
+
+
+/* searchbar css  */
+.sidebar-search {
+  display: flex;
+  align-items: center;
+  background-color: #1a1a1a;
+  margin: 0 16px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  color: #ccc;
+  transition: all 0.3s ease;
+}
+
+.sidebar-search.collapsed {
+  justify-content: center;
+  padding: 10px;
+}
+
+.search-icon {
+  color: #888;
+  font-size: 20px;
+}
+
+.search-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  padding-left: 10px;
+  width: 100%;
+}
