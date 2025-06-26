@@ -1,6 +1,7 @@
 import { Box } from '@mui/material';
 import Sidebar, { drawerWidthOpen } from './components/Sidebar';
 import Dashboard from './components/Dashboard';
+import "./App.css"
 
 const App = () => {
   return (
